@@ -1,3 +1,7 @@
+import numpy as np
+from sklearn.metrics import confusion_matrix,classification_report
+import seaborn as sns
+import matplotlib.pyplot as plt 
 n = int(input("Enter number of datasets: "))
 
 results = []
